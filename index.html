@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ciber Cria</title>
+    <title>Ciber Cria - Portfólio Profissional</title>
+    <meta name="description" content="Explore as áreas da computação e encontre o caminho certo para você. Ciber Cria oferece recursos educacionais gratuitos em TI.">
+    <meta name="keywords" content="TI, tecnologia, programação, redes, cibersegurança, DevOps, banco de dados">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Exo+2:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔒</text></svg>">
 </head>
 <body>
     <header>
@@ -14,7 +17,7 @@
             <nav>
                 <ul>
                     <li><a href="index.html">Início</a></li>
-                    <li><a href="areas.html">Áreas de Atuação</a></li>
+                    <li><a href="Areas.html">Áreas de Atuação</a></li>
                     <li><a href="roteiro.html">Roteiro de Estudos</a></li>
                     <li><a href="projetos.html">Projetos</a></li>
                     <li><a href="sobre.html">Sobre</a></li>
@@ -24,18 +27,109 @@
         </div>
     </header>
 
-    <section class="hero">
-        <div class="container">
-            <h2>Bem-vindo ao <span class="destaque">Ciber Cria</span>!</h2>
-            <p>Explore as áreas da computação e encontre o caminho certo para você.</p>
-            <a href="areas.html" class="botao">Explore as Áreas</a>
-        </div>
-    </section>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Bem-vindo ao <span class="destaque">Ciber Cria</span>!</h2>
+                <p>Explore as áreas da computação e encontre o caminho certo para você. Recursos educacionais gratuitos e projetos práticos para impulsionar sua carreira em TI.</p>
+                <a href="Areas.html" class="botao">Explorar Áreas</a>
+            </div>
+        </section>
+
+        <section class="destaques">
+            <div class="container">
+                <h2>Por que escolher o Ciber Cria?</h2>
+                <div class="cards-grid">
+                    <div class="card-destaque">
+                        <div class="card-icon">🎯</div>
+                        <h3>Foco Prático</h3>
+                        <p>Projetos reais e exercícios práticos para aplicar seus conhecimentos imediatamente.</p>
+                    </div>
+                    <div class="card-destaque">
+                        <div class="card-icon">🚀</div>
+                        <h3>Atualizado</h3>
+                        <p>Conteúdo sempre atualizado com as últimas tendências e tecnologias do mercado.</p>
+                    </div>
+                    <div class="card-destaque">
+                        <div class="card-icon">💡</div>
+                        <h3>Gratuito</h3>
+                        <p>100% gratuito e acessível para todos, democratizando o acesso à educação em TI.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="areas-preview">
+            <div class="container">
+                <h2>Áreas de Especialização</h2>
+                <div class="areas-grid">
+                    <div class="area-card">
+                        <h3>Redes de Computadores</h3>
+                        <p>Protocolos, configurações e certificações como CCNA</p>
+                        <a href="redes.html" class="botao-secundario">Saiba Mais</a>
+                    </div>
+                    <div class="area-card">
+                        <h3>Cibersegurança</h3>
+                        <p>Proteção de sistemas e dados contra ameaças cibernéticas</p>
+                        <a href="ciberseguranca.html" class="botao-secundario">Saiba Mais</a>
+                    </div>
+                    <div class="area-card">
+                        <h3>DevOps</h3>
+                        <p>Integração de desenvolvimento e operações com Docker e Kubernetes</p>
+                        <a href="devops.html" class="botao-secundario">Saiba Mais</a>
+                    </div>
+                    <div class="area-card">
+                        <h3>Banco de Dados</h3>
+                        <p>SQL, NoSQL e ferramentas como MySQL e MongoDB</p>
+                        <a href="banco-de-dados.html" class="botao-secundario">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <h2>Pronto para começar sua jornada?</h2>
+                <p>Explore nossos roteiros de estudo e projetos práticos para acelerar seu aprendizado.</p>
+                <div class="cta-buttons">
+                    <a href="roteiro.html" class="botao">Ver Roteiros</a>
+                    <a href="projetos.html" class="botao-secundario">Ver Projetos</a>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 Ciber Cria. Todos os direitos reservados. Por @john1santoz</p>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Ciber Cria</h3>
+                    <p>Democratizando o acesso à educação em tecnologia.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="Areas.html">Áreas</a></li>
+                        <li><a href="projetos.html">Projetos</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="GitHub">📱</a>
+                        <a href="#" aria-label="LinkedIn">💼</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ciber Cria. Todos os direitos reservados. Por @john1santoz</p>
+            </div>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

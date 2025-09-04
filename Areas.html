@@ -4,51 +4,243 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Áreas de Atuação - Ciber Cria</title>
+    <meta name="description" content="Explore as principais áreas de atuação em TI: Redes, Cibersegurança, DevOps e Banco de Dados. Encontre o caminho certo para sua carreira.">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Ciber Cria</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                    <li><a href="areas.html">Áreas de Atuação</a></li>
+        <div class="container">
+            <h1>Ciber Cria</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="Areas.html">Áreas de Atuação</a></li>
                     <li><a href="roteiro.html">Roteiro de Estudos</a></li>
                     <li><a href="projetos.html">Projetos</a></li>
                     <li><a href="sobre.html">Sobre</a></li>
                     <li><a href="contato.html">Contato</a></li>
-            </ul>
-        </nav>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section class="areas">
-        <h2>Áreas de Atuação</h2>
-        <ul>
-            <li>
-                <h3>Redes</h3>
-                <p>Aprenda sobre redes de computadores, protocolos e certificações como CCNA.</p>
-                <a href="redes.html" class="botao">Saiba Mais</a>
-            </li>
-            <li>
-                <h3>Cibersegurança</h3>
-                <p>Descubra como proteger sistemas e dados contra ameaças cibernéticas.</p>
-                <a href="ciberseguranca.html" class="botao">Saiba Mais</a>
-            </li>
-            <li>
-                <h3>DevOps</h3>
-                <p>Integre desenvolvimento e operações com ferramentas como Docker e Kubernetes.</p>
-                <a href="devops.html" class="botao">Saiba Mais</a>
-            </li>
-            <li>
-                <h3>Banco de Dados</h3>
-                <p>Domine SQL, NoSQL e ferramentas como MySQL e MongoDB.</p>
-                <a href="banco-de-dados.html" class="botao">Saiba Mais</a>
-            </li>
-        </ul>
-    </section>
+    <main>
+        <section class="hero-areas">
+            <div class="container">
+                <h2>Áreas de Atuação</h2>
+                <p>Descubra as principais especializações em TI e encontre o caminho certo para sua carreira</p>
+            </div>
+        </section>
+
+        <section class="areas-destaque">
+            <div class="container">
+                <div class="areas-grid">
+                    <div class="area-card-destaque">
+                        <div class="area-icon">🌐</div>
+                        <h3>Redes de Computadores</h3>
+                        <p>Domine protocolos, configurações e certificações como CCNA. Aprenda sobre infraestrutura de rede, roteamento, switching e segurança de rede.</p>
+                        <div class="area-stats">
+                            <div class="stat">
+                                <span class="stat-number">2-3</span>
+                                <span class="stat-label">anos para dominar</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">R$ 4.500</span>
+                                <span class="stat-label">salário médio</span>
+                            </div>
+                        </div>
+                        <div class="area-skills">
+                            <span class="skill">TCP/IP</span>
+                            <span class="skill">Cisco</span>
+                            <span class="skill">CCNA</span>
+                            <span class="skill">Firewall</span>
+                        </div>
+                        <a href="redes.html" class="botao">Explorar Redes</a>
+                    </div>
+
+                    <div class="area-card-destaque">
+                        <div class="area-icon">🔒</div>
+                        <h3>Cibersegurança</h3>
+                        <p>Proteja sistemas e dados contra ameaças cibernéticas. Desenvolva habilidades em ethical hacking, análise de vulnerabilidades e compliance.</p>
+                        <div class="area-stats">
+                            <div class="stat">
+                                <span class="stat-number">3-4</span>
+                                <span class="stat-label">anos para dominar</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">R$ 6.200</span>
+                                <span class="stat-label">salário médio</span>
+                            </div>
+                        </div>
+                        <div class="area-skills">
+                            <span class="skill">Penetration Testing</span>
+                            <span class="skill">SOC</span>
+                            <span class="skill">ISO 27001</span>
+                            <span class="skill">Kali Linux</span>
+                        </div>
+                        <a href="ciberseguranca.html" class="botao">Explorar Segurança</a>
+                    </div>
+
+                    <div class="area-card-destaque">
+                        <div class="area-icon">🚀</div>
+                        <h3>DevOps</h3>
+                        <p>Integre desenvolvimento e operações com Docker, Kubernetes e CI/CD. Automatize processos e melhore a entrega de software.</p>
+                        <div class="area-stats">
+                            <div class="stat">
+                                <span class="stat-number">2-3</span>
+                                <span class="stat-label">anos para dominar</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">R$ 7.800</span>
+                                <span class="stat-label">salário médio</span>
+                            </div>
+                        </div>
+                        <div class="area-skills">
+                            <span class="skill">Docker</span>
+                            <span class="skill">Kubernetes</span>
+                            <span class="skill">Jenkins</span>
+                            <span class="skill">AWS</span>
+                        </div>
+                        <a href="devops.html" class="botao">Explorar DevOps</a>
+                    </div>
+
+                    <div class="area-card-destaque">
+                        <div class="area-icon">🗄️</div>
+                        <h3>Banco de Dados</h3>
+                        <p>Domine SQL, NoSQL e ferramentas como MySQL, PostgreSQL e MongoDB. Projete e otimize sistemas de banco de dados.</p>
+                        <div class="area-stats">
+                            <div class="stat">
+                                <span class="stat-number">1-2</span>
+                                <span class="stat-label">anos para dominar</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">R$ 5.300</span>
+                                <span class="stat-label">salário médio</span>
+                            </div>
+                        </div>
+                        <div class="area-skills">
+                            <span class="skill">SQL</span>
+                            <span class="skill">MySQL</span>
+                            <span class="skill">MongoDB</span>
+                            <span class="skill">PostgreSQL</span>
+                        </div>
+                        <a href="banco-de-dados.html" class="botao">Explorar Dados</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="comparacao-areas">
+            <div class="container">
+                <h3>Comparação das Áreas</h3>
+                <div class="comparacao-grid">
+                    <div class="comparacao-item">
+                        <h4>Facilidade de Aprendizado</h4>
+                        <div class="progress-bars">
+                            <div class="progress-item">
+                                <span>Banco de Dados</span>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 80%"></div>
+                                </div>
+                            </div>
+                            <div class="progress-item">
+                                <span>Redes</span>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 60%"></div>
+                                </div>
+                            </div>
+                            <div class="progress-item">
+                                <span>DevOps</span>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 50%"></div>
+                                </div>
+                            </div>
+                            <div class="progress-item">
+                                <span>Cibersegurança</span>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 40%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="comparacao-item">
+                        <h4>Demanda no Mercado</h4>
+                        <div class="progress-bars">
+                            <div class="progress-item">
+                                <span>DevOps</span>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 95%"></div>
+                                </div>
+                            </div>
+                            <div class="progress-item">
+                                <span>Cibersegurança</span>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="progress-item">
+                                <span>Banco de Dados</span>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="progress-item">
+                                <span>Redes</span>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 75%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-areas">
+            <div class="container">
+                <h3>Pronto para começar sua jornada?</h3>
+                <p>Escolha uma área e comece seus estudos hoje mesmo com nossos roteiros estruturados e projetos práticos.</p>
+                <div class="cta-buttons">
+                    <a href="roteiro.html" class="botao">Ver Roteiros</a>
+                    <a href="projetos.html" class="botao-secundario">Ver Projetos</a>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <footer>
-        <p>&copy; 2025 Ciber Cria. Todos os direitos reservados. Por @john1santoz</p>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Ciber Cria</h3>
+                    <p>Democratizando o acesso à educação em tecnologia.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="Areas.html">Áreas</a></li>
+                        <li><a href="projetos.html">Projetos</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="GitHub">📱</a>
+                        <a href="#" aria-label="LinkedIn">💼</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ciber Cria. Todos os direitos reservados. Por @john1santoz</p>
+            </div>
+        </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

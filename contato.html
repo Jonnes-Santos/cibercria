@@ -4,65 +4,197 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato - Ciber Cria</title>
+    <meta name="description" content="Entre em contato conosco para dúvidas, sugestões ou colaborações. Estamos aqui para ajudar em sua jornada de aprendizado em TI.">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Ciber Cria</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                    <li><a href="areas.html">Áreas de Atuação</a></li>
+        <div class="container">
+            <h1>Ciber Cria</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="Areas.html">Áreas de Atuação</a></li>
                     <li><a href="roteiro.html">Roteiro de Estudos</a></li>
                     <li><a href="projetos.html">Projetos</a></li>
                     <li><a href="sobre.html">Sobre</a></li>
                     <li><a href="contato.html">Contato</a></li>
-                    
-                    
-            </ul>
-        </nav>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section class="contato">
-        <h2>Entre em Contato</h2>
-        
-        <!-- Formulário de Contato -->
-        <div class="formulario-contato">
-            <form action="#" method="post">
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required>
+    <main>
+        <section class="hero-contato">
+            <div class="container">
+                <h2>Entre em Contato</h2>
+                <p>Estamos aqui para ajudar em sua jornada de aprendizado em tecnologia</p>
+            </div>
+        </section>
 
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" required>
+        <section class="contato-conteudo">
+            <div class="container">
+                <div class="contato-grid">
+                    <div class="formulario-contato">
+                        <h3>Envie uma Mensagem</h3>
+                        <form id="contatoForm">
+                            <div class="form-group">
+                                <label for="nome">Nome Completo</label>
+                                <input type="text" id="nome" name="nome" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">E-mail</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="assunto">Assunto</label>
+                                <select id="assunto" name="assunto" required>
+                                    <option value="">Selecione um assunto</option>
+                                    <option value="duvida">Dúvida sobre conteúdo</option>
+                                    <option value="sugestao">Sugestão de melhoria</option>
+                                    <option value="colaboracao">Colaboração</option>
+                                    <option value="bug">Reportar problema</option>
+                                    <option value="outro">Outro</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="mensagem">Mensagem</label>
+                                <textarea id="mensagem" name="mensagem" rows="6" required placeholder="Descreva sua dúvida, sugestão ou comentário..."></textarea>
+                            </div>
+                            
+                            <button type="submit" class="botao">Enviar Mensagem</button>
+                        </form>
+                    </div>
 
-                <label for="mensagem">Mensagem:</label>
-                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                    <div class="informacoes-contato">
+                        <h3>Informações de Contato</h3>
+                        
+                        <div class="info-item">
+                            <div class="info-icon">📧</div>
+                            <div class="info-content">
+                                <h4>E-mail</h4>
+                                <p>contato@cibercria.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <div class="info-icon">💬</div>
+                            <div class="info-content">
+                                <h4>Redes Sociais</h4>
+                                <div class="social-links">
+                                    <a href="#" aria-label="GitHub">📱 GitHub</a>
+                                    <a href="#" aria-label="LinkedIn">💼 LinkedIn</a>
+                                    <a href="#" aria-label="Twitter">🐦 Twitter</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <div class="info-icon">⏰</div>
+                            <div class="info-content">
+                                <h4>Horário de Resposta</h4>
+                                <p>Segunda a Sexta: 9h às 18h<br>
+                                Resposta em até 24h</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <div class="info-icon">🎯</div>
+                            <div class="info-content">
+                                <h4>Áreas de Atendimento</h4>
+                                <ul>
+                                    <li>Dúvidas sobre conteúdo</li>
+                                    <li>Sugestões de melhorias</li>
+                                    <li>Propostas de colaboração</li>
+                                    <li>Suporte técnico</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-                <button type="submit" class="botao">Enviar</button>
-            </form>
-        </div>
-
-        <!-- Informações de Contato -->
-        <div class="informacoes-contato">
-            <h3>Ou entre em contato diretamente:</h3>
-            <ul>
-                <li>
-                    <strong>E-mail:</strong>
-                    <a href="mailto:jonnes.santos1@outlook.com.br">jonnes.santos01@outlook.com.br</a>
-                </li>
-                <li>
-                    <strong>Redes Sociais:</strong>
-                    <ul class="redes-sociais">
-                        <li><a href="https://linkedin.com/in/jonnes-santos" target="_blank">LinkedIn</a></li>
-                        <li><a href="https://github.com/jonnes-santos" target="_blank">GitHub</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-    </section>
+                <div class="faq-section">
+                    <h3>Perguntas Frequentes</h3>
+                    <div class="faq-grid">
+                        <div class="faq-item">
+                            <h4>O conteúdo é realmente gratuito?</h4>
+                            <p>Sim! Todos os recursos do Ciber Cria são 100% gratuitos e sempre serão. Acreditamos que a educação deve ser acessível a todos.</p>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <h4>Como posso contribuir com o projeto?</h4>
+                            <p>Você pode contribuir sugerindo melhorias, reportando problemas, compartilhando o conteúdo ou até mesmo colaborando com novos materiais.</p>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <h4>O conteúdo é atualizado regularmente?</h4>
+                            <p>Sim, mantemos todos os recursos atualizados com as últimas tendências e tecnologias do mercado de TI.</p>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <h4>Posso usar o conteúdo em meus cursos?</h4>
+                            <p>Sim, desde que seja para fins educacionais e com os devidos créditos ao Ciber Cria.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <footer>
-        <p>&copy; 2025 Ciber Cria. Todos os direitos reservados. Por @john1santoz</p>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Ciber Cria</h3>
+                    <p>Democratizando o acesso à educação em tecnologia.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="Areas.html">Áreas</a></li>
+                        <li><a href="projetos.html">Projetos</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="GitHub">📱</a>
+                        <a href="#" aria-label="LinkedIn">💼</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ciber Cria. Todos os direitos reservados. Por @john1santoz</p>
+            </div>
+        </div>
     </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Validação do formulário de contato
+        document.getElementById('contatoForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Simular envio do formulário
+            const nome = document.getElementById('nome').value;
+            const email = document.getElementById('email').value;
+            const assunto = document.getElementById('assunto').value;
+            const mensagem = document.getElementById('mensagem').value;
+            
+            if (nome && email && assunto && mensagem) {
+                alert('Mensagem enviada com sucesso! Entraremos em contato em breve.');
+                document.getElementById('contatoForm').reset();
+            } else {
+                alert('Por favor, preencha todos os campos obrigatórios.');
+            }
+        });
+    </script>
 </body>
 </html>

@@ -3,111 +3,250 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projetos - Ciber Cria</title>
+    <title>Projetos Práticos - Ciber Cria</title>
+    <meta name="description" content="Projetos práticos para aplicar seus conhecimentos em diferentes áreas de TI. Redes, Cibersegurança, DevOps e Banco de Dados.">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Projetos Práticos</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Voltar ao Início</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Ciber Cria</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="Areas.html">Áreas de Atuação</a></li>
+                    <li><a href="roteiro.html">Roteiro de Estudos</a></li>
+                    <li><a href="projetos.html">Projetos</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+
     <main>
-        <h2>Projetos por Área</h2>
-        <p>Confira abaixo projetos práticos para aplicar seus conhecimentos em diferentes áreas de TI:</p>
-
-        <!-- Projetos de Redes -->
-        <section class="projetos-area">
-            <h3>Redes de Computadores</h3>
-            <ul>
-                <li>
-                    <h4>Configuração de um Roteador Wi-Fi</h4>
-                    <p>Aprenda a configurar um roteador Wi-Fi doméstico com segurança.</p>
-                    <a href="https://www.tp-link.com/br/support/faq/14/" target="_blank" class="botao">Guia TP-Link</a>
-                </li>
-                <li>
-                    <h4>Simulação de Redes com Cisco Packet Tracer</h4>
-                    <p>Crie e simule redes usando a ferramenta Cisco Packet Tracer.</p>
-                    <a href="https://www.netacad.com/courses/packet-tracer" target="_blank" class="botao">Baixar Packet Tracer</a>
-                </li>
-            </ul>
+        <section class="hero-projetos">
+            <div class="container">
+                <h2>Projetos Práticos</h2>
+                <p>Aplique seus conhecimentos com projetos reais e desenvolva habilidades práticas em diferentes áreas de TI.</p>
+            </div>
         </section>
 
-        <!-- Projetos de Cibersegurança -->
-        <section class="projetos-area">
-            <h3>Cibersegurança</h3>
-            <ul>
-                <li>
-                    <h4>Configuração de um Firewall com pfSense</h4>
-                    <p>Aprenda a configurar um firewall open-source para proteger sua rede.</p>
-                    <a href="https://www.pfsense.org/" target="_blank" class="botao">Site Oficial pfSense</a>
-                </li>
-                <li>
-                    <h4>Análise de Vulnerabilidades com Nessus</h4>
-                    <p>Use o Nessus para identificar vulnerabilidades em sistemas.</p>
-                    <a href="https://www.tenable.com/products/nessus" target="_blank" class="botao">Site Oficial Nessus</a>
-                </li>
-            </ul>
-        </section>
+        <section class="projetos-conteudo">
+            <div class="container">
+                <!-- Projetos de Redes -->
+                <div class="projetos-area">
+                    <div class="area-header">
+                        <div class="area-icon">🌐</div>
+                        <h3>Redes de Computadores</h3>
+                    </div>
+                    <div class="projetos-grid">
+                        <div class="projeto-card">
+                            <div class="projeto-header">
+                                <h4>Configuração de Roteador Wi-Fi</h4>
+                                <span class="dificuldade basico">Básico</span>
+                            </div>
+                            <p>Aprenda a configurar um roteador Wi-Fi doméstico com segurança e otimização de performance.</p>
+                            <div class="projeto-skills">
+                                <span class="skill">Wi-Fi</span>
+                                <span class="skill">Segurança</span>
+                                <span class="skill">Configuração</span>
+                            </div>
+                            <a href="https://www.tp-link.com/br/support/faq/14/" target="_blank" class="botao">Ver Guia</a>
+                        </div>
+                        
+                        <div class="projeto-card">
+                            <div class="projeto-header">
+                                <h4>Simulação com Cisco Packet Tracer</h4>
+                                <span class="dificuldade intermediario">Intermediário</span>
+                            </div>
+                            <p>Crie e simule redes complexas usando a ferramenta Cisco Packet Tracer.</p>
+                            <div class="projeto-skills">
+                                <span class="skill">Packet Tracer</span>
+                                <span class="skill">Simulação</span>
+                                <span class="skill">Protocolos</span>
+                            </div>
+                            <a href="https://www.netacad.com/courses/packet-tracer" target="_blank" class="botao">Baixar</a>
+                        </div>
+                    </div>
+                </div>
 
-        <!-- Projetos de DevOps -->
-        <section class="projetos-area">
-            <h3>DevOps</h3>
-            <ul>
-                <li>
-                    <h4>Criação de um Pipeline CI/CD com Jenkins</h4>
-                    <p>Implemente um pipeline de integração e entrega contínua usando Jenkins.</p>
-                    <a href="https://www.jenkins.io/doc/tutorials/" target="_blank" class="botao">Tutoriais Jenkins</a>
-                </li>
-                <li>
-                    <h4>Implantação de Aplicações com Docker e Kubernetes</h4>
-                    <p>Aprenda a containerizar aplicações e gerenciá-las com Kubernetes.</p>
-                    <a href="https://kubernetes.io/docs/tutorials/kubernetes-basics/" target="_blank" class="botao">Tutoriais Kubernetes</a>
-                </li>
-            </ul>
-        </section>
+                <!-- Projetos de Cibersegurança -->
+                <div class="projetos-area">
+                    <div class="area-header">
+                        <div class="area-icon">🔒</div>
+                        <h3>Cibersegurança</h3>
+                    </div>
+                    <div class="projetos-grid">
+                        <div class="projeto-card">
+                            <div class="projeto-header">
+                                <h4>Firewall com pfSense</h4>
+                                <span class="dificuldade intermediario">Intermediário</span>
+                            </div>
+                            <p>Configure um firewall open-source para proteger sua rede contra ameaças.</p>
+                            <div class="projeto-skills">
+                                <span class="skill">pfSense</span>
+                                <span class="skill">Firewall</span>
+                                <span class="skill">Segurança</span>
+                            </div>
+                            <a href="https://www.pfsense.org/" target="_blank" class="botao">Site Oficial</a>
+                        </div>
+                        
+                        <div class="projeto-card">
+                            <div class="projeto-header">
+                                <h4>Análise com Nessus</h4>
+                                <span class="dificuldade avancado">Avançado</span>
+                            </div>
+                            <p>Use o Nessus para identificar vulnerabilidades em sistemas e redes.</p>
+                            <div class="projeto-skills">
+                                <span class="skill">Nessus</span>
+                                <span class="skill">Vulnerabilidades</span>
+                                <span class="skill">Penetration Testing</span>
+                            </div>
+                            <a href="https://www.tenable.com/products/nessus" target="_blank" class="botao">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
 
-        <!-- Projetos de Banco de Dados -->
-        <section class="projetos-area">
-            <h3>Banco de Dados</h3>
-            <ul>
-                <li>
-                    <h4>Criação de um Banco de Dados Relacional com MySQL</h4>
-                    <p>Projete e implemente um banco de dados relacional usando MySQL.</p>
-                    <a href="https://dev.mysql.com/doc/refman/8.0/en/tutorial.html" target="_blank" class="botao">Tutoriais MySQL</a>
-                </li>
-                <li>
-                    <h4>Migração para um Banco NoSQL com MongoDB</h4>
-                    <p>Aprenda a migrar dados de um banco relacional para o MongoDB.</p>
-                    <a href="https://www.mongodb.com/docs/manual/tutorial/getting-started/" target="_blank" class="botao">Tutoriais MongoDB</a>
-                </li>
-            </ul>
-        </section>
+                <!-- Projetos de DevOps -->
+                <div class="projetos-area">
+                    <div class="area-header">
+                        <div class="area-icon">🚀</div>
+                        <h3>DevOps</h3>
+                    </div>
+                    <div class="projetos-grid">
+                        <div class="projeto-card">
+                            <div class="projeto-header">
+                                <h4>Pipeline CI/CD com Jenkins</h4>
+                                <span class="dificuldade intermediario">Intermediário</span>
+                            </div>
+                            <p>Implemente um pipeline de integração e entrega contínua usando Jenkins.</p>
+                            <div class="projeto-skills">
+                                <span class="skill">Jenkins</span>
+                                <span class="skill">CI/CD</span>
+                                <span class="skill">Automação</span>
+                            </div>
+                            <a href="https://www.jenkins.io/doc/tutorials/" target="_blank" class="botao">Tutoriais</a>
+                        </div>
+                        
+                        <div class="projeto-card">
+                            <div class="projeto-header">
+                                <h4>Docker e Kubernetes</h4>
+                                <span class="dificuldade avancado">Avançado</span>
+                            </div>
+                            <p>Containerize aplicações e gerencie-as com Kubernetes em ambiente de produção.</p>
+                            <div class="projeto-skills">
+                                <span class="skill">Docker</span>
+                                <span class="skill">Kubernetes</span>
+                                <span class="skill">Containers</span>
+                            </div>
+                            <a href="https://kubernetes.io/docs/tutorials/kubernetes-basics/" target="_blank" class="botao">Tutoriais</a>
+                        </div>
+                    </div>
+                </div>
 
-        <!-- Recursos Adicionais -->
-        <section class="recursos-adicionais">
-            <h2>Recursos Adicionais para Projetos</h2>
-            <p>Confira abaixo alguns recursos que podem ajudar na execução dos projetos:</p>
-            <ul>
-                <li>
-                    <h3>GitHub</h3>
-                    <p>Explore repositórios públicos com exemplos de projetos práticos.</p>
-                    <a href="https://github.com/" target="_blank" class="botao">Acessar GitHub</a>
-                </li>
-                <li>
-                    <h3>Fóruns e Comunidades</h3>
-                    <p>Participe de comunidades como Stack Overflow e Reddit para tirar dúvidas.</p>
-                    <a href="https://stackoverflow.com/" target="_blank" class="botao">Stack Overflow</a>
-                    <a href="https://www.reddit.com/r/programming/" target="_blank" class="botao">Reddit (Programming)</a>
-                </li>
-            </ul>
+                <!-- Projetos de Banco de Dados -->
+                <div class="projetos-area">
+                    <div class="area-header">
+                        <div class="area-icon">🗄️</div>
+                        <h3>Banco de Dados</h3>
+                    </div>
+                    <div class="projetos-grid">
+                        <div class="projeto-card">
+                            <div class="projeto-header">
+                                <h4>Banco Relacional com MySQL</h4>
+                                <span class="dificuldade basico">Básico</span>
+                            </div>
+                            <p>Projete e implemente um banco de dados relacional usando MySQL.</p>
+                            <div class="projeto-skills">
+                                <span class="skill">MySQL</span>
+                                <span class="skill">SQL</span>
+                                <span class="skill">Modelagem</span>
+                            </div>
+                            <a href="https://dev.mysql.com/doc/refman/8.0/en/tutorial.html" target="_blank" class="botao">Tutoriais</a>
+                        </div>
+                        
+                        <div class="projeto-card">
+                            <div class="projeto-header">
+                                <h4>Migração para MongoDB</h4>
+                                <span class="dificuldade intermediario">Intermediário</span>
+                            </div>
+                            <p>Migre dados de um banco relacional para o MongoDB NoSQL.</p>
+                            <div class="projeto-skills">
+                                <span class="skill">MongoDB</span>
+                                <span class="skill">NoSQL</span>
+                                <span class="skill">Migração</span>
+                            </div>
+                            <a href="https://www.mongodb.com/docs/manual/tutorial/getting-started/" target="_blank" class="botao">Tutoriais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recursos Adicionais -->
+                <div class="recursos-adicionais">
+                    <h2>Recursos para Apoio aos Projetos</h2>
+                    <div class="recursos-grid">
+                        <div class="recurso-card">
+                            <div class="recurso-icon">📚</div>
+                            <h3>GitHub</h3>
+                            <p>Explore repositórios públicos com exemplos de projetos práticos e código fonte.</p>
+                            <a href="https://github.com/" target="_blank" class="botao-secundario">Explorar</a>
+                        </div>
+                        
+                        <div class="recurso-card">
+                            <div class="recurso-icon">💬</div>
+                            <h3>Comunidades</h3>
+                            <p>Participe de fóruns e comunidades para tirar dúvidas e compartilhar experiências.</p>
+                            <div class="comunidades-links">
+                                <a href="https://stackoverflow.com/" target="_blank" class="botao-secundario">Stack Overflow</a>
+                                <a href="https://www.reddit.com/r/programming/" target="_blank" class="botao-secundario">Reddit</a>
+                            </div>
+                        </div>
+                        
+                        <div class="recurso-card">
+                            <div class="recurso-icon">📖</div>
+                            <h3>Documentação</h3>
+                            <p>Acesse documentações oficiais e guias técnicos para aprofundar seus conhecimentos.</p>
+                            <a href="#" class="botao-secundario">Ver Links</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
+
     <footer>
-        <p>&copy; 2025 Ciber Cria. Todos os direitos reservados. Por @john1santoz</p>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Ciber Cria</h3>
+                    <p>Democratizando o acesso à educação em tecnologia.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="Areas.html">Áreas</a></li>
+                        <li><a href="projetos.html">Projetos</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="GitHub">📱</a>
+                        <a href="#" aria-label="LinkedIn">💼</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ciber Cria. Todos os direitos reservados. Por @john1santoz</p>
+            </div>
+        </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
