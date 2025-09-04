@@ -3,8 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Categorias - Ciber Cria</title>
+    <title>Recursos Educacionais - Ciber Cria</title>
+    <meta name="description" content="Explore nossa curadoria de recursos educacionais de qualidade em tecnologia, programação e áreas afins. Links organizados por nível e especialização.">
+    <meta name="keywords" content="recursos educacionais, TI, programação, cursos online, tecnologia, aprendizado">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔒</text></svg>">
 </head>
 <body>
     <header>
@@ -28,21 +32,218 @@
         </div>
     </header>
 
-    <section class="categorias">
-        <h2>Categorias de Recursos</h2>
-        <ul>
-            <li><a href="https://www.khanacademy.org" target="_blank">Ensino Fundamental (Khan Academy)</a></li>
-            <li><a href="https://www.youtube.com/c/ProfessorFerretto" target="_blank">Ensino Médio (Professor Ferretto)</a></li>
-            <li><a href="https://www.coursera.org" target="_blank">Ensino Superior (Coursera)</a></li>
-            <li><a href="https://www.duolingo.com" target="_blank">Cursos de Idiomas (Duolingo)</a></li>
-            <li><a href="https://www.freecodecamp.org" target="_blank">Programação e Tecnologia (freeCodeCamp)</a></li>
-            <li><a href="https://www.edx.org/course/subject/art-culture" target="_blank">Arte e Cultura (edX)</a></li>
-            <li><a href="https://www.qconcursos.com" target="_blank">Preparação para Concursos (QConcursos)</a></li>
-        </ul>
-    </section>
+    <main>
+        <section class="hero-recursos">
+            <div class="container">
+                <h2>Recursos Educacionais Curados</h2>
+                <p>Explore nossa seleção cuidadosamente curada de plataformas e recursos educacionais de alta qualidade, organizados por nível de conhecimento e área de especialização.</p>
+            </div>
+        </section>
+
+        <section class="recursos-categorias">
+            <div class="container">
+                <h2>Plataformas por Nível Educacional</h2>
+                <div class="categorias-grid">
+                    <div class="categoria-card">
+                        <div class="categoria-icon">🎓</div>
+                        <h3>Ensino Fundamental</h3>
+                        <p>Recursos adaptados para iniciantes e estudantes do ensino fundamental, com foco em conceitos básicos de programação e lógica computacional.</p>
+                        <div class="categoria-links">
+                            <a href="https://www.khanacademy.org" target="_blank" class="recurso-link">
+                                <span class="link-icon">📚</span>
+                                <div class="link-content">
+                                    <strong>Khan Academy</strong>
+                                    <span>Matemática, ciências e programação básica</span>
+                                </div>
+                            </a>
+                            <a href="https://scratch.mit.edu" target="_blank" class="recurso-link">
+                                <span class="link-icon">🎮</span>
+                                <div class="link-content">
+                                    <strong>Scratch</strong>
+                                    <span>Programação visual e criativa</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="categoria-card">
+                        <div class="categoria-icon">📖</div>
+                        <h3>Ensino Médio</h3>
+                        <p>Conteúdo aprofundado para estudantes do ensino médio, incluindo preparação para vestibulares e introdução a conceitos avançados de TI.</p>
+                        <div class="categoria-links">
+                            <a href="https://www.youtube.com/c/ProfessorFerretto" target="_blank" class="recurso-link">
+                                <span class="link-icon">🎥</span>
+                                <div class="link-content">
+                                    <strong>Professor Ferretto</strong>
+                                    <span>Matemática e física para vestibulares</span>
+                                </div>
+                            </a>
+                            <a href="https://www.cursoemvideo.com" target="_blank" class="recurso-link">
+                                <span class="link-icon">💻</span>
+                                <div class="link-content">
+                                    <strong>Curso em Vídeo</strong>
+                                    <span>Programação e tecnologia</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="categoria-card">
+                        <div class="categoria-icon">🎯</div>
+                        <h3>Ensino Superior</h3>
+                        <p>Recursos universitários e especializados para estudantes de graduação e pós-graduação em áreas de tecnologia e computação.</p>
+                        <div class="categoria-links">
+                            <a href="https://www.coursera.org" target="_blank" class="recurso-link">
+                                <span class="link-icon">🏛️</span>
+                                <div class="link-content">
+                                    <strong>Coursera</strong>
+                                    <span>Cursos de universidades renomadas</span>
+                                </div>
+                            </a>
+                            <a href="https://www.edx.org" target="_blank" class="recurso-link">
+                                <span class="link-icon">🌐</span>
+                                <div class="link-content">
+                                    <strong>edX</strong>
+                                    <span>Educação superior online gratuita</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="categoria-card">
+                        <div class="categoria-icon">💻</div>
+                        <h3>Programação e Tecnologia</h3>
+                        <p>Plataformas especializadas em desenvolvimento de software, programação e tecnologias emergentes para profissionais e entusiastas.</p>
+                        <div class="categoria-links">
+                            <a href="https://www.freecodecamp.org" target="_blank" class="recurso-link">
+                                <span class="link-icon">🔥</span>
+                                <div class="link-content">
+                                    <strong>freeCodeCamp</strong>
+                                    <span>Programação web gratuita</span>
+                                </div>
+                            </a>
+                            <a href="https://www.codecademy.com" target="_blank" class="recurso-link">
+                                <span class="link-icon">⚡</span>
+                                <div class="link-content">
+                                    <strong>Codecademy</strong>
+                                    <span>Aprenda programação interativamente</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="categoria-card">
+                        <div class="categoria-icon">🌍</div>
+                        <h3>Idiomas</h3>
+                        <p>Recursos para aprendizado de idiomas, essencial para profissionais de TI que trabalham em ambientes globais e multinacionais.</p>
+                        <div class="categoria-links">
+                            <a href="https://www.duolingo.com" target="_blank" class="recurso-link">
+                                <span class="link-icon">🦉</span>
+                                <div class="link-content">
+                                    <strong>Duolingo</strong>
+                                    <span>Aprenda idiomas de forma gamificada</span>
+                                </div>
+                            </a>
+                            <a href="https://www.babbel.com" target="_blank" class="recurso-link">
+                                <span class="link-icon">🗣️</span>
+                                <div class="link-content">
+                                    <strong>Babbel</strong>
+                                    <span>Conversação e gramática prática</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="categoria-card">
+                        <div class="categoria-icon">🎨</div>
+                        <h3>Arte e Cultura</h3>
+                        <p>Desenvolva habilidades criativas e culturais que complementam a formação técnica, incluindo design, arte digital e expressão criativa.</p>
+                        <div class="categoria-links">
+                            <a href="https://www.edx.org/course/subject/art-culture" target="_blank" class="recurso-link">
+                                <span class="link-icon">🎭</span>
+                                <div class="link-content">
+                                    <strong>edX Arte & Cultura</strong>
+                                    <span>Cursos de arte e humanidades</span>
+                                </div>
+                            </a>
+                            <a href="https://www.skillshare.com" target="_blank" class="recurso-link">
+                                <span class="link-icon">✏️</span>
+                                <div class="link-content">
+                                    <strong>Skillshare</strong>
+                                    <span>Criatividade e design</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="categoria-card">
+                        <div class="categoria-icon">📋</div>
+                        <h3>Preparação para Concursos</h3>
+                        <p>Recursos especializados para preparação em concursos públicos na área de TI, incluindo questões, simulados e material de estudo.</p>
+                        <div class="categoria-links">
+                            <a href="https://www.qconcursos.com" target="_blank" class="recurso-link">
+                                <span class="link-icon">📊</span>
+                                <div class="link-content">
+                                    <strong>QConcursos</strong>
+                                    <span>Questões e simulados para concursos</span>
+                                </div>
+                            </a>
+                            <a href="https://www.estrategiaconcursos.com.br" target="_blank" class="recurso-link">
+                                <span class="link-icon">🎯</span>
+                                <div class="link-content">
+                                    <strong>Estratégia Concursos</strong>
+                                    <span>Cursos preparatórios especializados</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-recursos">
+            <div class="container">
+                <h3>Pronto para expandir seus conhecimentos?</h3>
+                <p>Explore nossas áreas de especialização e encontre o caminho perfeito para sua carreira em tecnologia.</p>
+                <div class="cta-buttons">
+                    <a href="Areas.html" class="botao">Explorar Áreas</a>
+                    <a href="roteiro.html" class="botao-secundario">Ver Roteiros</a>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <footer>
-        <p>&copy; 2025 Ciber Cria. Todos os direitos reservados. Por @john1santoz</p>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Ciber Cria</h3>
+                    <p>Democratizando o acesso à educação em tecnologia.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="Areas.html">Áreas</a></li>
+                        <li><a href="projetos.html">Projetos</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-links">
+                        <a href="https://github.com/Jonnes-Santos" aria-label="GitHub">📱</a>
+                        <a href="https://www.linkedin.com/in/jonnes-santos/" aria-label="LinkedIn">💼</a>
+                        <a href="https://www.instagram.com/john01santoz/" aria-label="Instagram">🐦</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ciber Cria. Todos os direitos reservados. Por Jonnes Santos</p>
+            </div>
+        </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
